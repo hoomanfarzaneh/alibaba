@@ -1,0 +1,10 @@
+.accordionText{
+
+    .accordion{
+        direction: rtl;
+        padding: 10px;
+        &:hover{
+            background-color: rgba(228, 228, 232, 0.638)
+        }
+    }
+}

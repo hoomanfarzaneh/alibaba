@@ -1,0 +1,112 @@
+.header{
+    display: flex;
+    position: relative;
+
+    img{
+        width: 100%;
+    }
+
+    .mainHeader{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 10px;
+        width: 100%;
+        max-width: 1224px;
+        position: absolute;
+        align-items: center;
+        top: 270px;
+        left: 62px;
+        border: 1px solid rgb(222, 222, 222);
+
+        .headerList{
+            display: flex;
+            gap: 100px;
+            direction: rtl;
+            margin-top: 20px;
+
+            .headerListItem{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                color: rgb(100, 100, 100);
+                cursor: pointer;
+
+                &:hover{
+                    color: rgba(100, 100, 100, 0.382);
+                }
+
+                .active{
+                    color: rgb(21, 21, 177);
+                }
+
+                .headerIcon{
+                    font-size: 32px;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+
+    hr{
+        width: 100%;
+        margin-top: 10px;
+        border: none;
+        height: 1px;
+        background-color: rgb(222, 222, 222);
+    }
+
+    .headerSearch{
+        width: 95%;
+        direction: rtl;
+        display: flex;
+        justify-content: space-around;
+        margin: 30px 0;
+
+        .headerSearchItem{
+
+             .inputStart{
+                border: 1px solid;
+                outline: none;
+                padding: 10px;
+                border-left: none;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+                border-color: rgb(211, 211, 211);
+                font-size: 16px;
+             }
+             .inputEnd{
+                border: 1px solid;
+                outline: none;
+                padding: 10px;
+                border-color: rgb(211, 211, 211);
+                border-bottom-left-radius: 10px;
+                border-top-left-radius: 10px;
+                font-size: 16px;
+             }
+        }
+
+        .personItem{
+            border: 1px solid;
+            outline: none;
+            padding: 10px;
+            border-color: rgb(211, 211, 211);
+            border-radius: 10px;
+            width: 100px;
+        }
+
+        button{
+            padding: 8px 38px;
+            background-color: rgb(253, 183, 19);
+            outline: none;
+            border: none;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+
+            &:hover{
+                background-color: rgba(253, 183, 19, 0.612);
+            }
+        }
+    }
+}

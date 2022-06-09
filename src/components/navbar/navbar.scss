@@ -1,0 +1,67 @@
+.navbar{
+    direction: rtl;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(114, 113, 113);
+
+    .right{
+        display: flex;
+        align-items: center;
+
+        img{
+            width: 60px;
+            height: 40px;
+            margin-right: 20px;
+            margin-left: 50px;
+        }
+        
+        .tabs{
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-top: 10px;
+            cursor: pointer;
+    
+            .vr{
+                border-left: 1px solid gray;
+                 height: 30px;
+                 margin-top: 10px;
+            }
+    
+            .flyTab{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                .icon{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+   
+
+    .left{
+        display: flex;
+        gap: 10px;
+        cursor: pointer;
+
+        .check{
+            display: flex;
+            margin-left: 20px;
+            margin-top: 30px;
+
+            span{
+                margin-left: 10px;
+                font-size: 16px;
+            }
+
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+}
